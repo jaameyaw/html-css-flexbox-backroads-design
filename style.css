@@ -223,7 +223,7 @@ nav ul{
 }
 
 .service-container {
-	height: 50vh;
+	height: 40vh;
 	background: hsl(210, 36%, 96%);
 }
 
@@ -283,4 +283,92 @@ nav ul{
 .serv-p {
 	color: hsl(209, 28%, 39%);
 	padding-bottom: 10px;
+}
+
+
+.featured-title h2 {
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	text-transform: uppercase;
+	letter-spacing: 0.25rem;
+}
+
+.featured-title span {
+	color: hsl(185, 62%, 45%);
+	padding-left: 7px;
+}
+
+.featured-center {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.tour-container {
+	height: 31rem;
+	width: 22rem;
+	background: hsl(210, 36%, 96%);
+	transition: all 0.3s linear;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	margin-bottom: 2rem;
+}
+
+.tour-container:hover {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  	transform: scale(1.02);
+}
+
+.img-tour {
+	width: 22rem;
+	height: 16rem;
+	object-fit: cover;
+}
+
+.image-container {
+	position: relative;
+}
+
+.tour-date {
+	position: absolute;
+	background: hsl(184, 80%, 74%);
+	color: hsl(184, 91%, 17%);
+	right: 0;
+	bottom: 0;
+	margin-bottom: 0;
+  	text-transform: capitalize;
+  	padding: 0.25rem 0.5rem;
+}
+
+.featured-info {
+	padding: 1.25rem 1.5rem;
+}
+
+.featured-info h4 {
+	letter-spacing: 0.25rem;
+	text-transform: capitalize;
+}
+
+.featured-info p {
+	padding-top: 0.5rem;
+	color: hsl(210, 22%, 49%);
+	line-height: 1.5rem;
+}
+
+.featured-footer {
+	display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;	
+}
+
+.featured-footer p {
+	line-height: 0;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: hsl(185, 62%, 45%);
 }
