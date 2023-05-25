@@ -319,7 +319,7 @@ nav ul{
 
 .tour-container:hover {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  	transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .img-tour {
@@ -339,8 +339,8 @@ nav ul{
 	right: 0;
 	bottom: 0;
 	margin-bottom: 0;
-  	text-transform: capitalize;
-  	padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  padding: 0.25rem 0.5rem;
 }
 
 .featured-info {
@@ -360,15 +360,77 @@ nav ul{
 
 .featured-footer {
 	display: flex;
-    justify-content: space-between;
-    padding: 1.25rem 1.5rem;
-    flex-wrap: wrap;
-    align-items: center;	
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;	
 }
 
 .featured-footer p {
 	line-height: 0;
-    margin-bottom: 0;
-    text-transform: capitalize;
-    color: hsl(185, 62%, 45%);
+  margin-bottom: 0;
+  text-transform: capitalize;
+  color: hsl(185, 62%, 45%);
 }
+
+.section-contact {
+	height: 35vh;
+	background: hsl(185, 62%, 45%);
+}
+
+.latest-tour {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 70px;
+
+}
+
+.contact-ab h3 {
+	letter-spacing: 0.25rem;
+	color: white;
+	font-size: 2rem;
+}
+
+.contact-ab p {
+	color: hsl(184, 80%, 74%);
+	padding-top: 5px;
+}
+
+.contact-email {
+	width: 27rem;
+}
+
+.contact-form {
+	margin-top: 10px;
+}
+
+.contact-email,
+.btn-submit {
+	padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.25rem;
+  background: white;
+  text-transform: capitalize;
+  outline: none;
+  border: transparent;
+}
+
+.contact-email::placholder {
+  color: inherit;
+}
+
+.btn-submit {
+  font-family: "Lato", sans-serif;
+  margin-left: 0.5rem;
+  background: hsl(184, 80%, 74%);
+  color: hsl(184, 91%, 17%);
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btn-submit:hover {
+  background: hsl(184, 91%, 17%);
+  color: hsl(185, 62%, 45%);
+} 
