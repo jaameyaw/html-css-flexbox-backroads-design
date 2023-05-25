@@ -483,3 +483,83 @@ nav ul{
     flex: 0 0 21%;
   }
 }
+
+
+.footer-container {
+	padding-top: 60px;
+}
+
+footer ul a{
+	text-decoration: none;
+	padding-left: 9px;
+	color: hsl(209, 34%, 30%);
+	transition: all 0.3s linear;
+	letter-spacing: 0.25rem;
+}
+
+footer ul a:hover {
+	color: hsl(185, 62%, 45%);
+}
+
+footer ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-icons ul{
+	list-style-type: none;
+	display: flex;
+}
+
+.footer {
+  background: hsl(209, 61%, 16%);
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: 45vh;
+}
+
+.footer-links,
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 1rem;
+  letter-spacing: 0.25rem;
+  transition: all 0.3s linear;
+}
+
+.footer-link:hover {
+  color: hsl(185, 62%, 45%);
+}
+
+.footer-icons {
+	padding-top: 15px;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  padding-right: 5px;
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+.footer-icon:hover {
+  color: hsl(185, 62%, 45%);
+}
+
+.copyright {
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  color: #fff;
+  padding-top: 15px;
+}
