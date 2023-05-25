@@ -434,3 +434,52 @@ nav ul{
   background: hsl(184, 91%, 17%);
   color: hsl(185, 62%, 45%);
 } 
+
+
+.gallery-img-container {
+  position: relative;
+  background: hsl(185, 62%, 45%);
+  width: 337.25px;
+  height: 184px;
+  }
+
+.gallery-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.gallery-img {
+  width: 337.25px;
+  height: 184px;
+  object-fit: cover;
+  transition: all 0.3s linear;
+}
+
+.gallery-img-container:hover .gallery-img {
+  opacity: 0.5;
+}
+.gallery-img-container:hover .gallery-icon {
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-center {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .gallery-img-container {
+    flex: 0 0 30%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .gallery-img-container {
+    flex: 0 0 21%;
+  }
+}
