@@ -9,50 +9,91 @@
 	<link rel="icon" href="images/favicon.ico">
 </head>
 <body>
-	<div class="container">
-		<img src="images/logo.svg">
-		
-		<nav>
-			<ul>
-				<li><a href="#home" class="nav-link scroll link">Home</a></li>
-				<li><a href="#about" class="nav-link scroll link">About</a></li>
-				<li><a href="#services" class="nav-link scroll link">Services</a></li>
-				<li><a href="#featured" class="nav-link scroll link">Featured</a></li>
-				<li><a href="#gallery" class="nav-link scroll link">Gallery</a></li>
-			</ul>
-		</nav>
+    <header id="home">
 
-		<div class="nav-icons">
-			<ul>
-				<li>
-					<a href="https://twitter.com" target="_blank" class="nav-icon_1">
-						<i class="fa-brands fa-twitter fa-lg fa-beat" ></i>
-					</a>
-				</li>
+      <nav class="navbar">
+        <div class="nav-center">
 
-				<li>
-					<a href="https://www.instagram.com/" target="_blank">
-						<i class="fa-brands fa-instagram fa-lg"></i>
-					</a>
-				</li>
+          <div class="nav-header">
+            <img src="images/logo.svg" class="nav-logo" alt="" />
+            <button type="button" class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          
+          <ul class="nav-links" id="nav-links">
+         
+            <li>
+              <a href="#home" class="nav-link scroll-link">home</a>
+            </li>
+         
+            <li>
+              <a href="#about" class="nav-link scroll-link">about</a>
+            </li>
+       
+            <li>
+              <a href="#services" class="nav-link scroll-link">services</a>
+            </li>
+          
+            <li>
+              <a href="#featured" class="nav-link scroll-link">featured</a>
+            </li>
+          
+            <li>
+              <a href="#gallery" class="nav-link scroll-link">gallery</a>
+            </li>
+            
+          </ul>
+          
+          <ul class="nav-icons">
+            
+            <li>
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                class="nav-icon"
+              >
+                <i class="fa-brands fa-twitter fa-lg fa-beat" ></i>
+              </a>
+            </li>
+        
+            <li>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                class="nav-icon"
+              >
+                <i class="fa-brands fa-instagram fa-lg"></i>
+              </a>
+            </li>
+        
+            <li>
+              <a
+                href="https://www.github.com"
+                target="_blank"
+                class="nav-icon"
+              >
+                <i class="fa-brands fa-github fa-lg"></i>
+              </a>
+            </li>
+            
+          </ul>
+         
+        </div>
+      </nav>
 
-				<li>
-					<a href="https://github.com/" target="_blank">
-						<i class="fa-brands fa-github fa-lg"></i>
-					</a>
-				</li>
-			</ul>
-		</div>	
-		</div>
-		<header id="home">
-			<div class="home-container">
-				<div class="banner">
-					<h1 class="banner-header">Continue Exploring</h1>
-					<p class="banner-p">Adventure awaits. Explore destinations, discover cultures, create memories.</p>
-					<a href="#featured" class="btn">explore tours</a>
-				</div>
-			</div>
-	   </header>
+      <div class="hero">
+        <div class="hero-banner">
+          <h1>continue exploring</h1>
+          <p>
+            Adventure awaits. Explore destinations, discover cultures, create memories.
+          </p>
+          <a href="#featured" class="btn hero-btn scroll-link">explore tours</a>
+        </div>
+      </div>
+    </header>
+
+
 
 	   <section id="about">
 	   	<div class="main-container">
@@ -74,47 +115,57 @@
 	   	</div>
 	   </section>
 
-	   <section id="services">
-	   	<div class="service-container">
+    
+    <section class="section-center" id="services">
+      
+      <div class="service-title">
+        <h2>our <span>services</span></h2>
+      </div>
+      
+      <div class="services-center">
+        
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-wallet fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="serv-head">saving money</h4>
+            <p class="serv-text">
+             Affordable adventures that let you explore while keeping costs low
+            </p>
+          </div>
+        </article>
 
-		<div class="service-title">
-			<h2>Our <span>Services</span></h2>
-		</div>
+        
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-tree fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="serv-head">endless biking</h4>
+            <p class="serv-text">
+              Unleash your wanderlust on endless hiking adventures with breathtaking views.
+            </p>
+          </div>
+        </article>
+        
+        
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-socks fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="serv-head">amazing comfort</h4>
+            <p class="serv-text">
+              Luxury accommodations and seamless comfort on our remarkable backroad tours.
+            </p>
+          </div>
+        </article>
+        
+      </div>
+    </section>
 
-		<div class="main-con">
-		<div class="serv-con">
-			<span class="serv-icon">
-				<i class="fa-solid fa-wallet"></i>
-			</span>
-			<div class="service-info">
-			<h3 class="heading">Saving Money</h3>
-			<p class="serv-p">Affordable adventures that let you explore while keeping costs low</p>
-			</div>
-		</div>	
 
-		<div class="serv-con">
-			<span class="serv-icon">
-				<i class="fa-solid fa-tree"></i>
-			</span>
-			<div class="service-info">
-			<h3 class="heading">Endless Hiking</h3>
-			<p class="serv-p">Unleash your wanderlust on endless hiking adventures with breathtaking views.</p>
-			</div>
-		</div>
-
-		<div class="serv-con">
-			<span class="serv-icon">
-				<i class="fa-solid fa-socks"></i>
-			</span>
-			<div class="service-info">
-			<h3 class="heading">Amazing comfort</h3>
-			<p class="serv-p">Luxury accommodations and seamless comfort on our remarkable backroad tours.</p>
-			</div>
-		</div>
-		</div>
-
-		</div>
-		</section>
 
 		<section id="featured" class="section">
 
@@ -232,7 +283,7 @@
 					<h3>Want Latest Tour Info And Updates?</h3>
 					<p>Sign up for newsletter and stay up to date</p>
 				</article>
-
+ 
 				<form class="contact-form">
 					<input 
 					type="email" 
@@ -307,7 +358,6 @@
       </div>
     </section>
 
-
   
     <footer class="footer">
 
@@ -345,13 +395,13 @@
         </li>
  
         <li>
-          <a href="https://www.twitter.com" target="_blank" class="footer-icon">
+          <a href="https://www.instagram.com" target="_blank" class="footer-icon">
             <i class="fa-brands fa-instagram fa-lg"></i>
           </a>
         </li>
 
         <li>
-          <a href="https://www.twitter.com" target="_blank" class="footer-icon">
+          <a href="https://www.github.com" target="_blank" class="footer-icon">
             <i class="fa-brands fa-github fa-lg"></i>
           </a>
         </li>
