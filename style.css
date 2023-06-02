@@ -19,6 +19,11 @@ img:not(.nav-logo) {
 	display: block;
 }
 
+/*
+=============== 
+Navbar
+===============
+*/
 .navbar {
   position: fixed;
   top: 0;
@@ -38,6 +43,7 @@ img:not(.nav-logo) {
   max-width: 1170px;
   margin: 0 auto;
 }
+
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -76,20 +82,23 @@ ul li a {
   cursor: pointer;
   font-size: 1rem;
 }
+
 .nav-link:hover {
   color: hsl(184, 91%, 17%);
   background: hsl(184, 80%, 74%);
   padding-left: 2.25rem;
 }
-/* 280px */
+
 .nav-links {
   height: 0;
   overflow: hidden;
   transition: all 0.3s linear;
 }
+
 .show-links {
   height: 280px;
 }
+
 @media screen and (min-width: 992px) {
   /* hide toggle button */
   .navbar {
@@ -141,6 +150,7 @@ ul li a {
     color: hsl(184, 80%, 74%);
   }
 }
+
 /*
 =============== 
 Hero
@@ -211,6 +221,7 @@ Hero
     background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
       url("images/main.jpeg") center/cover no-repeat;
   }
+
   .hero-banner {
     padding: 0;
   }
@@ -221,7 +232,11 @@ Hero
 }
 
 
-
+/*
+=============== 
+About
+===============
+*/
 .about-title {
 	font-size: 2rem;
 	padding-top: 70px;
@@ -339,9 +354,15 @@ Hero
 @media screen and (min-width: 1170px) {
 	.main-container {
 		height: 100vh;
-}
+	}
 }
 
+
+/*
+=============== 
+Services
+===============
+*/
 .section-center {
 	background: hsl(210, 36%, 96%);
 
@@ -403,6 +424,7 @@ Hero
 	color: hsl(209, 28%, 39%);
 	padding-bottom: 10px;
 }
+
 @media screen and (min-width: 576px) {
   .services-center {
     display: flex;
@@ -415,32 +437,42 @@ Hero
     margin-bottom: 1rem;
   }
 }
+
 @media screen and (min-width: 992px) {
   .service {
     flex: 0 0 calc(33.333% - 1rem);
   }
 }
+
 @media screen and (min-width: 1170px) {
   .service {
     display: flex;
     text-align: left;
   }
+
   .service-icon {
     align-self: start;
   }
+
   .service-info {
     padding-left: 1rem;
   }
+
   .service-title {
     margin-bottom: 0.5rem;
   }
+
   .section-center {
-  height: 50vh;
+  	height: 50vh;
 	}
 }
 
 
-
+/*
+=============== 
+Featured Tours
+===============
+*/
 .featured-title h2 {
 	text-align: center;
 	font-size: 2rem;
@@ -526,17 +558,14 @@ Hero
   text-transform: capitalize;
   color: hsl(185, 62%, 45%);
 }
-@media screen and (max-width: 768px) {
-	.tour-container {
-		width: 26rem;
-	}
-}
+
 @media screen and (min-width: 768px) {
   .featured-center {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .tour-container {
     flex: 0 0 calc(50% - 2rem);
   }
@@ -548,10 +577,11 @@ Hero
   }
 }
 
-
-
-
-
+/*
+=============== 
+Contact
+===============
+*/
 .section-contact {
 	height: 35vh;
 	background: hsl(185, 62%, 45%);
@@ -578,7 +608,6 @@ Hero
 .contact-email {
 	width: 21rem;
 }
-
 
 .contact-form {
 	margin-top: 10px;
@@ -645,10 +674,16 @@ Hero
 	}
 }
 
+/*
+=============== 
+Gallery
+===============
+*/
 .gallery-img-container {
   position: relative;
   background: hsl(185, 62%, 45%);
 }
+
 .gallery-icon {
   position: absolute;
   top: 50%;
@@ -660,17 +695,21 @@ Hero
   cursor: pointer;
   transition: all 0.3s linear;
 }
+
 .gallery-img {
   height: 17rem;
   object-fit: cover;
   transition: all 0.3s linear;
 }
+
 .gallery-img-container:hover .gallery-img {
   opacity: 0.5;
 }
+
 .gallery-img-container:hover .gallery-icon {
   opacity: 1;
 }
+
 @media screen and (min-width: 768px) {
   .gallery-center {
     display: flex;
@@ -680,6 +719,7 @@ Hero
     flex: 0 0 50%;
   }
 }
+
 @media screen and (min-width: 992px) {
   .gallery-img-container {
     flex: 0 0 25%;
