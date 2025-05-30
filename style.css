@@ -803,7 +803,7 @@ footer ul{
   color: hsl(185, 62%, 45%);
 }
 
-.copyright {
+.copyright, .author {
   text-transform: capitalize;
   letter-spacing: 0.25rem;
   color: #fff;
