@@ -1,3 +1,4 @@
+'strict mode';
 // ********** nav toggle ************
 // select button and links
 const navBtn = document.getElementById("nav-toggle");
